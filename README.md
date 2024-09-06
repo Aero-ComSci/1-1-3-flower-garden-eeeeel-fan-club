@@ -1,31 +1,50 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/CH30njZ-)
-# 1.1.3FlowerGarden
+Flower Drawing Turtle Program
+Overview
+This Python program uses the turtle graphics module to draw various types of flowers based on user input. The user can specify the type of flower, the number of flowers, and the background color. The program will interpret the user's input and draw the flowers accordingly.
 
-Flower activity 
-AI challenge -
+Features
+Flower Types: The program supports drawing five types of flowers:
+Sunflower
+Rose
+Daisy
+Tulip
+Lily
+Background Colors: The user can choose from the following background colors:
+Blue
+Green
+Yellow
+White
+Black
+Random Flower Placement: Each flower is placed at a random location on the canvas.
+How It Works
+User Input: The user describes the flowers they want by mentioning the flower type, the number of flowers, and the background color.
+Input Parsing: The program analyzes the input to determine the flower type, the number of flowers, and the background color.
+Flower Drawing: Based on the parsed input, the program randomly positions and draws the specified number of flowers on the turtle canvas with the chosen background color.
+Turtle Graphics: The program uses the turtle graphics module to draw the flowers, which stay on the screen until the user closes the window.
+Example Input
+The program expects input in natural language, for example:
 
-Your Program must do the following:
-1. Take user input and generate a drawing of specific flowers and their quantity using turtle.
+css
+Copy code
+Draw 3 sunflowers with a blue background.
+Requirements
+Python 3.x
+Turtle graphics module (comes pre-installed with Python)
+How to Run
+Install Python on your system if not already installed.
 
-How???
-Use 1.1.3 for guidance
+Copy the code to a Python file (e.g., flower_drawing.py).
 
--- Tokenize user input
+Run the program by executing the following command in the terminal:
 
-Compare each of the tokens against a list with 5 flowers your program can draw
+Copy code
+python flower_drawing.py
+When prompted, enter a description of the flowers you'd like to see. The program will draw them on the canvas.
 
-Compare each of the tokens to see if it has a quantity
-
-Your program can deny and give the user some guidance.
-
-  [Tokenize user input ](https://www.google.com)
-
-  Obtain quantity is num
-  Obtain shape -- if in dictionary common shapes
-  Based on flower detected by user input in dict create flower
-
-Create a class flower
-Init takes num petals, num flowers, type of flower
-Creates a flower(s)
-
-Fun for different draw methods
+Customization
+You can modify the flowers or background colors by adding or editing entries in the flower_draw_functions dictionary or the background_colors list.
+The program uses simple turtle drawing techniques, so adding more flower types or styles is straightforward.
+Notes
+The turtle.done() function ensures the window remains open until you manually close it.
+The program will only draw recognized flower types; if the input is not valid, it will return an error message.
+Enjoy creating beautiful flowers!
