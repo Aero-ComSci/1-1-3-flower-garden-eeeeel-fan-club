@@ -32,7 +32,8 @@ This Python Turtle project generates a random flower garden based on user input,
 - The program searches the input for keywords so the input must have a number, a flower type and a background color preferably in a format like "4 roses on a black background"
 
 ## Images
-- ![yevengers](Somewhere in the description there should be a number, flower type and color
+- ![yevengers]((https://github.com/Aero-ComSci/1-1-3-flower-garden-eeeeel-fan-club/blob/main/images/Screenshot%202024-09-06%20at%2010.04.14%20PM.png)
+- ![img2](
 
 
 
