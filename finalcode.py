@@ -5,7 +5,7 @@ import re
 
 
 
-# Setup the turtle environment
+# Turtle Setup
 def setup_turtle(background_color="white"):
     turtle.reset()
     turtle.speed(0)
@@ -108,7 +108,7 @@ def draw_lily():
 
 
 
-# Mapping flower types to their respective drawing functions
+# Flower types and their drawing functions
 flower_draw_functions = {
     "sunflower": draw_sunflower,
     "rose": draw_rose,
@@ -120,7 +120,7 @@ flower_draw_functions = {
 
 
 
-# Randomly position the flowers on the canvas
+# randomly position the flowers on the screen
 def place_flower(flower_type, amount):
     for _ in range(amount):
         turtle.penup()
@@ -133,15 +133,15 @@ def place_flower(flower_type, amount):
 
 
 
-# AI-like input parsing function
+# input parsing function
 def parse_user_input(user_input):
-    # Normalize the input to lowercase
+    # convert the input to lowercase
     user_input = user_input.lower()
 
 
 
 
-    # Identify the background color
+    # identify the background color
     background_colors = ["blue", "green", "yellow", "white", "black"]
     background_color = "white"
     for color in background_colors:
@@ -152,7 +152,7 @@ def parse_user_input(user_input):
 
 
 
-    # Identify the flower type
+    # identify the flower type
     flower_type = None
     for flower in flower_draw_functions.keys():
         if flower in user_input:
@@ -189,7 +189,7 @@ def main():
     if flower_type:
         setup_turtle(background_color)
         place_flower(flower_type, amount)
-        turtle.done()  # Keeps the window open until clicked
+        turtle.done()  
     else:
         print("Sorry, I don't recognize that flower type.")
 
@@ -198,16 +198,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
