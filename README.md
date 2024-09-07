@@ -34,7 +34,7 @@ This Python Turtle project generates a random flower garden based on user input,
 ## Images
 - ![yevengers](https://github.com/Aero-ComSci/1-1-3-flower-garden-eeeeel-fan-club/blob/main/images/Screenshot%202024-09-06%20at%2010.04.14%20PM.png)
 - ![img2](https://github.com/Aero-ComSci/1-1-3-flower-garden-eeeeel-fan-club/blob/main/images/Screenshot%202024-09-06%20at%2010.06.47%20PM.png)
-- ![img3](
+- ![img3](https://github.com/Aero-ComSci/1-1-3-flower-garden-eeeeel-fan-club/blob/main/images/Screenshot%202024-09-06%20at%2010.08.40%20PM.png)
 
 
 
